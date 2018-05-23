@@ -4,10 +4,11 @@ pipeline{
 		stage('Build'){
 			steps {	
 				echo 'Hi Sluts'
-		stage('Test')
+		stage('Test'){
 			steps {
 				echo 'Yeahh Boi'
 			}
+		}	
 
 			}
 		}
